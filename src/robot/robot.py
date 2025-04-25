@@ -1,5 +1,9 @@
 # this is whole arm manipulator.
 
+# from math_utils import math_utils as mu
+
+from math_utils.math_utils import cos, sin
+
 # number of links
 links = 3
 
@@ -19,3 +23,8 @@ def getLinkMass(link):
     return linkMass[link]
 
 setLinkLength(0, 3)
+
+theta = 3.14
+
+print(cos(theta))
+print(sin(theta))
