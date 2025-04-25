@@ -1,5 +1,9 @@
-# Ignore archived/trashed code.
+# ignore archived/trashed code.
 archive/
 
-# Protect learning experiments.
+# protect learning experiments.
 assets/learning/
+
+# misc.
+/build
+/bin
