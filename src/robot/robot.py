@@ -2,7 +2,7 @@
 
 # from math_utils import math_utils as mu
 
-from math_utils.math_utils import cos, sin
+from math_utils.trig import cos, sin
 
 # number of links
 links = 3
